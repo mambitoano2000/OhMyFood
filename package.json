@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "dsfsdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mambitoano2000/ohmyfood.git"
+  },
+  "keywords": [
+    "sdf"
+  ],
+  "author": "fds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mambitoano2000/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/mambitoano2000/ohmyfood#readme"
+}
