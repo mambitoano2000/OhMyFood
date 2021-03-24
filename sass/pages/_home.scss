@@ -1,9 +1,50 @@
-/* Main  - Article - Find Restaurants*/
-
-.find-restaurants {
-    background-color: darken($color-background, 20%);
-}
+/* Main  - Article - Find Restaurants -Search */
 
 .find-restaurants__search {
     justify-content: center;
+    align-items: center;
+    background-color: darken($color-background, 3%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: inset 0px 4px 3px 0px darken($color-background, 8%);
+
+    &__icon {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    input {
+        background-color: inherit;
+        color: black;
+        border: none;
+        text-indent: 5px;
+        width: 150px;
+        font-size: 1em;
+        font-weight: 600;
+        opacity: 0.6;
+        &::placeholder{
+            color: inherit;
+        }
+    }
+}
+
+/* Main  - Article - Find Restaurants - Explore */
+
+.find-restaurants__explore {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+    h1 {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+
+    h2 {
+        font-weight: normal;
+        font-size: 1.250em;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: darken($color-background, 60%);
+    }
 }

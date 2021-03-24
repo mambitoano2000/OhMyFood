@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -15,4 +19,8 @@ img {
 
 input {
     outline-style: none;
+}
+
+button {
+    border: none;
 }
