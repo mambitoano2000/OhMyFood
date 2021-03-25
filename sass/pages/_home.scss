@@ -59,3 +59,63 @@ aside {
 .fonctionnement-buttons {
     padding-top: 15px;
 }
+
+
+/* Main  - Section */
+
+.restaurants-blocks__block {
+    figure {
+        height: 190px;
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 190px;
+        }
+
+        .sticker-container {
+            bottom: 170px;
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 15px;
+            .sticker {
+                background-color: $color-tertiary;
+                color: darken($color-tertiary, 40%);
+                padding: 6px;
+                padding-left: 9px;
+                padding-right: 9px;
+                font-weight: bold;
+                border-radius: 2px;
+            }
+        }
+    }
+}
+
+.text-footer {
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 5px 8px 1px darken($color-background, 5%);
+    justify-content: space-between;
+    h2 {
+        font-size: 1.15em;
+    }
+    p {
+        font-size: 1.15em;
+    }
+    &__heart {
+        align-items: center;
+        .submit {
+            padding: 0px;
+        }
+        i {
+            -webkit-text-stroke: 2px black;
+            color: white;
+            font-size: 1.7em;
+        }
+    }
+}

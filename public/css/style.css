@@ -15,6 +15,11 @@
   overflow: hidden;
 }
 
+.border-radius-15px {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 .marginblock-reset {
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -74,7 +79,6 @@ ul {
 
 img {
   object-fit: cover;
-  width: 20%;
 }
 
 input {
@@ -83,6 +87,17 @@ input {
 
 button {
   border: none;
+}
+
+figure {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.submit {
+  cursor: pointer;
 }
 
 .find-restaurants__explore__submit form button {
@@ -200,6 +215,61 @@ aside {
 
 .fonctionnement-buttons {
   padding-top: 15px;
+}
+
+/* Main  - Section */
+.restaurants-blocks__block figure {
+  height: 190px;
+}
+.restaurants-blocks__block figure img {
+  object-fit: cover;
+  width: 100%;
+  height: 190px;
+}
+.restaurants-blocks__block figure .sticker-container {
+  bottom: 170px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.restaurants-blocks__block figure .sticker-container .sticker {
+  background-color: #99E2D0;
+  color: #278870;
+  padding: 6px;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.text-footer {
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 1px 5px 8px 1px #e9e9e9;
+  justify-content: space-between;
+}
+.text-footer h2 {
+  font-size: 1.15em;
+}
+.text-footer p {
+  font-size: 1.15em;
+}
+.text-footer__heart {
+  align-items: center;
+}
+.text-footer__heart .submit {
+  padding: 0px;
+}
+.text-footer__heart i {
+  -webkit-text-stroke: 2px black;
+  color: white;
+  font-size: 1.7em;
 }
 
 /*# sourceMappingURL=style.css.map */
