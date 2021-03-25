@@ -54,6 +54,10 @@ body {
   font-family: "Font Awesome 5 Free";
 }
 
+.fa-mobile-alt {
+  font-size: 1.3em;
+}
+
 body {
   margin: 0px;
 }
@@ -83,8 +87,8 @@ button {
 
 .find-restaurants__explore__submit form button {
   background: linear-gradient(#FF79DA, #9356DC);
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 1.05em;
   border-radius: 25px;
 }
@@ -101,19 +105,28 @@ button {
 }
 
 .fonctionnement-buttons__btn {
-  padding: 25px;
-  margin-bottom: 20px;
+  padding: 28px;
+  margin-bottom: 27px;
   margin-left: 10px;
   border-radius: 20px;
   padding-left: 0px;
+  box-shadow: 1px 5px 8px 1px #e9e9e9;
 }
 .fonctionnement-buttons__btn i {
   opacity: 0.5;
+  margin-left: 10px;
+}
+.fonctionnement-buttons__btn .fa-mobile-alt {
+  margin-right: 6px;
+}
+.fonctionnement-buttons__btn .fa-list {
+  margin-right: 2px;
 }
 .fonctionnement-buttons__btn button {
   background: inherit;
   font-size: 1em;
   font-weight: bold;
+  margin-left: 17px;
 }
 
 .wrapper {
@@ -173,9 +186,20 @@ footer {
 .find-restaurants__explore h2 {
   font-weight: normal;
   font-size: 1.25em;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-bottom: 30px;
   color: #5d5d5d;
+}
+
+/* Main  - Aside */
+aside {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.fonctionnement-buttons {
+  padding-top: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

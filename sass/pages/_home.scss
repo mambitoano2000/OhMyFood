@@ -42,8 +42,20 @@
     h2 {
         font-weight: normal;
         font-size: 1.250em;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-bottom: 30px;
         color: darken($color-background, 60%);
     }
+}
+
+/* Main  - Aside */
+
+aside {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.fonctionnement-buttons {
+    padding-top: 15px;
 }
