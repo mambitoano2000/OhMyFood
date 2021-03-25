@@ -65,11 +65,11 @@ aside {
 
 .restaurants-blocks__block {
     figure {
-        height: 190px;
+        height: 193px;
         img {
             object-fit: cover;
             width: 100%;
-            height: 190px;
+            height: 193px;
         }
 
         .sticker-container {
@@ -94,8 +94,8 @@ aside {
 .text-footer {
     padding-left: 15px;
     padding-right: 20px;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 20px;
+    padding-bottom: 16px;
     margin-bottom: 20px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -105,7 +105,8 @@ aside {
         font-size: 1.15em;
     }
     p {
-        font-size: 1.15em;
+        font-size: 1em;
+        padding-top: 4px;
     }
     &__heart {
         align-items: center;

@@ -25,9 +25,21 @@
   margin-block-end: 0px;
 }
 
+.marginblockstart-reset {
+  margin-block-start: 0px;
+}
+
 .padding-sides-25px {
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.padding-top-60px {
+  padding-top: 60px;
+}
+
+.padding-bottom-45px {
+  padding-bottom: 45px;
 }
 
 .flex {
@@ -160,6 +172,7 @@ header .logo {
 
 footer {
   background-color: black;
+  opacity: 0.75;
 }
 
 /* Main  - Article - Find Restaurants -Search */
@@ -219,12 +232,12 @@ aside {
 
 /* Main  - Section */
 .restaurants-blocks__block figure {
-  height: 190px;
+  height: 193px;
 }
 .restaurants-blocks__block figure img {
   object-fit: cover;
   width: 100%;
-  height: 190px;
+  height: 193px;
 }
 .restaurants-blocks__block figure .sticker-container {
   bottom: 170px;
@@ -246,8 +259,8 @@ aside {
 .text-footer {
   padding-left: 15px;
   padding-right: 20px;
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding-top: 20px;
+  padding-bottom: 16px;
   margin-bottom: 20px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -258,7 +271,8 @@ aside {
   font-size: 1.15em;
 }
 .text-footer p {
-  font-size: 1.15em;
+  font-size: 1em;
+  padding-top: 4px;
 }
 .text-footer__heart {
   align-items: center;
