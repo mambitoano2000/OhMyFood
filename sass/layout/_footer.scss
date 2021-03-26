@@ -1,4 +1,18 @@
 footer {
     background-color: black;
     opacity: 0.750;
+    font-size: 1.050em;
+    font-style: normal;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    .logo {
+        font-size: 1.150em;
+        margin-bottom: 15px;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    .fa-utensils, .fa-hands-helping {
+        font-size: 0.8em;
+    }
 }
