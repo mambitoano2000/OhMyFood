@@ -1,4 +1,4 @@
-.find-restaurants__explore__submit {
+.find-restaurants__explore__submit, .menu__body__commander {
     form {
         button {
             background: linear-gradient($color-secondary, $color-primary);
@@ -45,4 +45,8 @@
         font-weight: bold;
         margin-left: 17px;
     }
+}
+
+.menu__body__food__bouton {
+    margin-bottom: 17px;
 }

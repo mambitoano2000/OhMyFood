@@ -9,7 +9,7 @@ a {
 
 ul {
     list-style-type: none;
-    padding-inline-start: 0px
+    padding-left: 0px
 }
 
 img {
@@ -25,10 +25,7 @@ button {
 }
 
 figure {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin: 0px;
 }
 
 .submit {
