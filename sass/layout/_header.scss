@@ -10,11 +10,12 @@ header {
         height: 45px;
         &__text {
             position: absolute;
+            margin: auto;
         }
     }
     .fas {
         font-size: 0.6em;
-        margin-right: 350px;
+        right:45%;
         position: relative;
     }
 }
