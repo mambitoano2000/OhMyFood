@@ -24,3 +24,31 @@
         }
     }
 }
+
+.menu__body__food__title {
+    .underlined-tertiary {
+        background-color: $color-tertiary;
+        width: 50px;
+        height: 3px;
+        margin-bottom: 15px;
+    }
+    h2 {
+        margin-bottom: 3px;
+    }
+}
+
+.menu__commander {
+    form {
+        padding-top: 37px;
+        padding-bottom: 60px;
+        button {
+            background: linear-gradient($color-secondary, $color-primary);
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 51px;
+            padding-right: 51px;
+            font-size: 1.1em;
+            border-radius: 25px;
+        }
+    }
+} 
