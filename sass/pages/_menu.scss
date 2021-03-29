@@ -13,6 +13,12 @@
 .menu {
     padding-left: 20px;
     padding-right: 20px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 65px;
+    margin-bottom: -65px;
 }
 .menu__title {
     .submit {
