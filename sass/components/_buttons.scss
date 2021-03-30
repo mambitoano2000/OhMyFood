@@ -29,6 +29,10 @@
     border-radius: 20px;
     padding-left: 0px;
     box-shadow: 1px 5px 8px 1px darken($color-background, 5%);
+    &:hover {
+        color: $color-primary;
+        background: lighten($color-primary, 34%);
+    }
     i {
         opacity: 0.5;
         margin-left: 10px;
@@ -58,3 +62,35 @@
         margin-bottom: 5px;
     }
 }
+
+.fade-entrees {
+    animation: fade 1s ease;
+}
+
+
+
+.fade-plats {
+    animation: fade 1.5s ease; 
+}
+
+
+
+.fade-desserts {
+    animation: fade 2s ease;   
+}  
+
+@keyframes fade {
+    0% { opacity: 0 }
+    10% { opacity: 0 }
+    20% { opacity: 0.0 }
+    30% { opacity: 0.1 }
+    40% { opacity: 0.2 }
+    45% { opacity: 0.3 }
+    50% { opacity: 0.4}
+    55% { opacity: 0.5}
+    60% { opacity: 0.6}
+    70% { opacity: 0.7}
+    80% { opacity: 0.8}
+    90% { opacity: 0.9}
+    100% { opacity: 1 }
+  }
