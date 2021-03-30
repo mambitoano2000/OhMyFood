@@ -64,19 +64,19 @@
 }
 
 .fade-entrees {
-    animation: fade 1s ease;
+    animation: fade 1s ease, size-button 1s ease;  
 }
 
 
 
 .fade-plats {
-    animation: fade 1.5s ease; 
+    animation: fade 2s ease, size-button 2s ease; 
 }
 
 
 
 .fade-desserts {
-    animation: fade 2s ease;   
+    animation: fade 3s ease, size-button 3s ease;   
 }  
 
 @keyframes fade {
@@ -94,3 +94,12 @@
     90% { opacity: 0.9}
     100% { opacity: 1 }
   }
+
+@keyframes size-button {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}  
