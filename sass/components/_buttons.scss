@@ -32,6 +32,7 @@
     &:hover {
         color: $color-primary;
         background: lighten($color-primary, 34%);
+        box-shadow: 1px 5px 8px 1px lighten($color-primary, 30%);
     }
     i {
         opacity: 0.5;
@@ -53,13 +54,30 @@
 
 .menu__body__food__bouton {
     margin-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 14px;
-    padding-bottom: 14px;
     box-shadow: 1px 5px 8px 1px darken($color-background, 5%);
     h3 {
         margin-bottom: 5px;
+        text-overflow: ellipsis;
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    &__paragraph {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        .overflow-text {
+            text-overflow: ellipsis;
+            width: 80%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+    &__green {
+        width: 25%;
+        background-color: $color-tertiary;
     }
 }
 
