@@ -5,9 +5,9 @@ header {
     padding-right: 15px;
     .logo {
         text-align: center;
-        font-size: 2em;
+        font-size: 3em;
         align-items: center;
-        height: 45px;
+        height: 65px;
         &__text {
             position: absolute;
             margin: auto;
@@ -20,5 +20,12 @@ header {
     }
 }
 
-
+@media all and (max-width: 480px) {
+    header {
+        .logo {
+            font-size: 2em;
+            height: 45px;
+        }
+    }
+}
 

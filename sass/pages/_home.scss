@@ -54,6 +54,17 @@
 aside {
     padding-top: 30px;
     padding-bottom: 20px;
+    h2 {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 480px) {
+    aside {
+        h2 {
+         text-align: start;
+        }
+    }
 }
 
 .fonctionnement-buttons {
@@ -62,8 +73,41 @@ aside {
 
 
 /* Main  - Section */
+.top-radius {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+@media all and (max-width: 480px) {
+    .top-radius {
+        border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+}
+
+
+.restaurants-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 480px) {
+    .restaurants-blocks {
+       display: block;
+       &__block {
+           margin: 0px !important;
+           width: auto !important;
+       }
+    }
+}
+
+
+
 
 .restaurants-blocks__block {
+    margin: 10px;
+    width: 300px;
     figure {
         height: 193px;
         img {
@@ -90,6 +134,7 @@ aside {
         }
     }
 }
+
 
 .text-footer {
     padding-left: 15px;

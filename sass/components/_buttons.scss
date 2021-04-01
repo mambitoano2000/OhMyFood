@@ -25,7 +25,8 @@
 .fonctionnement-buttons__btn {
     padding: 28px;
     margin-bottom: 27px;
-    margin-left: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
     border-radius: 20px;
     padding-left: 0px;
     box-shadow: 1px 5px 8px 1px darken($color-background, 5%);
@@ -34,12 +35,13 @@
         background: lighten($color-primary, 34%);
         box-shadow: 1px 5px 8px 1px lighten($color-primary, 30%);
     }
+
     i {
         opacity: 0.5;
         margin-left: 10px;
     }
     .fa-mobile-alt {
-        margin-right: 6px;
+        margin-right: 7px;
     }
     .fa-list {
         margin-right: 2px;
@@ -48,7 +50,65 @@
         background: inherit;
         font-size: 1em;
         font-weight: bold;
-        margin-left: 17px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .fonctionnement-buttons__btn {
+        margin-left: 10%;
+        margin-right: 10%;
+        button {
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+    }
+}
+
+@media all and (max-width: 800px) {
+    .fonctionnement-buttons__btn {
+        margin-left: 10%;
+        margin-right: 10%;
+        button {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+}
+
+@media all and (max-width: 480px) {
+    .fonctionnement-buttons__btn {
+        margin-left: 0px;
+        margin-right: 0px;
+        button {
+            margin-left: 17px;
+            margin-right: 0px;
+        }
+    }
+}
+
+@media all and (max-width: 360px) {
+    .fonctionnement-buttons__btn {
+        margin-left: 0px;
+        margin-right: 0px;
+        button {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+}
+
+@media all and (max-width: 344px) {
+    .fonctionnement-buttons__btn {
+        margin-left: 0px;
+        margin-right: 0px;
+        button {
+            margin-left: 0px;
+            margin-right: 0px;
+            font-size: 0.8em;
+            padding-left: 5;
+        }
     }
 }
 
@@ -72,7 +132,6 @@
             text-overflow: ellipsis;
             width: 290px;
             white-space: nowrap;
-            overflow: hidden;
         }
     }
     &__green {
@@ -92,3 +151,9 @@
 }
 
 
+@media all and (max-width: 480px) {
+    .overflow-text {
+        overflow: hidden;
+    }
+    
+}

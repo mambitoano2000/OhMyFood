@@ -121,13 +121,18 @@
   position: fixed;
   opacity: 0;
   top: 50%;
-  left: 43%;
+  left: 48%;
   border: 5px solid;
   border-radius: 50%;
   border-right-color: #9356DC;
   animation: spin 2s linear, fade-loading 2s ease;
 }
 
+@media all and (max-width: 480px) {
+  .loading {
+    left: 43%;
+  }
+}
 @keyframes fade {
   0% {
     opacity: 0;
@@ -380,7 +385,8 @@ hr {
 .fonctionnement-buttons__btn {
   padding: 28px;
   margin-bottom: 27px;
-  margin-left: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
   border-radius: 20px;
   padding-left: 0px;
   box-shadow: 1px 5px 8px 1px #e9e9e9;
@@ -395,7 +401,7 @@ hr {
   margin-left: 10px;
 }
 .fonctionnement-buttons__btn .fa-mobile-alt {
-  margin-right: 6px;
+  margin-right: 7px;
 }
 .fonctionnement-buttons__btn .fa-list {
   margin-right: 2px;
@@ -404,9 +410,62 @@ hr {
   background: inherit;
   font-size: 1em;
   font-weight: bold;
-  margin-left: 17px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
+@media all and (max-width: 1200px) {
+  .fonctionnement-buttons__btn {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .fonctionnement-buttons__btn button {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+@media all and (max-width: 800px) {
+  .fonctionnement-buttons__btn {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .fonctionnement-buttons__btn button {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media all and (max-width: 480px) {
+  .fonctionnement-buttons__btn {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .fonctionnement-buttons__btn button {
+    margin-left: 17px;
+    margin-right: 0px;
+  }
+}
+@media all and (max-width: 360px) {
+  .fonctionnement-buttons__btn {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .fonctionnement-buttons__btn button {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media all and (max-width: 344px) {
+  .fonctionnement-buttons__btn {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .fonctionnement-buttons__btn button {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 0.8em;
+    padding-left: 5;
+  }
+}
 .menu__body__food__bouton {
   margin-bottom: 20px;
   box-shadow: 1px 5px 8px 1px #e9e9e9;
@@ -429,7 +488,6 @@ hr {
   text-overflow: ellipsis;
   width: 290px;
   white-space: nowrap;
-  overflow: hidden;
 }
 .menu__body__food__bouton__green {
   padding-left: 20px;
@@ -446,6 +504,11 @@ hr {
   color: white;
 }
 
+@media all and (max-width: 480px) {
+  .overflow-text {
+    overflow: hidden;
+  }
+}
 .wrapper {
   max-width: 1400px;
   margin: auto;
@@ -459,9 +522,9 @@ header {
 }
 header .logo {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   align-items: center;
-  height: 45px;
+  height: 65px;
 }
 header .logo__text {
   position: absolute;
@@ -473,6 +536,12 @@ header .fas {
   position: relative;
 }
 
+@media all and (max-width: 480px) {
+  header .logo {
+    font-size: 2em;
+    height: 45px;
+  }
+}
 footer {
   background-color: black;
   opacity: 0.75;
@@ -542,12 +611,50 @@ aside {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+aside h2 {
+  text-align: center;
+}
 
+@media all and (max-width: 480px) {
+  aside h2 {
+    text-align: start;
+  }
+}
 .fonctionnement-buttons {
   padding-top: 15px;
 }
 
 /* Main  - Section */
+.top-radius {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+@media all and (max-width: 480px) {
+  .top-radius {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+}
+.restaurants-blocks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 480px) {
+  .restaurants-blocks {
+    display: block;
+  }
+  .restaurants-blocks__block {
+    margin: 0px !important;
+    width: auto !important;
+  }
+}
+.restaurants-blocks__block {
+  margin: 10px;
+  width: 300px;
+}
 .restaurants-blocks__block figure {
   height: 193px;
 }

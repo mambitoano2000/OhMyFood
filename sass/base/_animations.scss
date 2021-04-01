@@ -49,11 +49,17 @@
     position: fixed;
     opacity: 0;
     top: 50%;
-    left: 43%;
+    left: 48%;
     border: 5px solid;
     border-radius: 50%;
     border-right-color: $color-primary;
     animation: spin 2s linear, fade-loading 2s ease;
+}
+
+@media all and (max-width: 480px) {
+    .loading {
+        left: 43%;
+    }
 }
 
 @keyframes fade {
