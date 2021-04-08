@@ -463,7 +463,7 @@ hr {
     margin-left: 0px;
     margin-right: 0px;
     font-size: 0.8em;
-    padding-left: 5;
+    padding-left: 5px;
   }
 }
 .menu__body__food__bouton {
@@ -705,15 +705,14 @@ aside h2 {
   padding: 0px;
 }
 .text-footer__heart i {
-  -webkit-text-stroke: 2px black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: white;
-  background: white;
   font-size: 1.3em;
   transition: all 0.4s ease;
 }
 .text-footer__heart i:hover {
   color: #9356DC;
-  -webkit-text-stroke: 2px #9356DC;
+  text-shadow: -1px 0 #9356DC, 0 1px #9356DC, 1px 0 #9356DC, 0 -1px #9356DC;
 }
 
 /* Main  - Article - Figure */
@@ -742,14 +741,14 @@ aside h2 {
   padding: 0px;
 }
 .menu__title .submit i {
-  -webkit-text-stroke: 2px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   color: #f6f6f6;
   font-size: 2em;
   transition: all 0.4s ease;
 }
 .menu__title .submit i:hover {
   color: #9356DC;
-  -webkit-text-stroke: 2px #9356DC;
+  text-shadow: -2px 0 #9356DC, 0 2px #9356DC, 2px 0 #9356DC, 0 -2px #9356DC;
 }
 
 .menu__body__food__title .underlined-tertiary {
