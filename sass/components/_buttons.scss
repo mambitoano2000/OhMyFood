@@ -113,6 +113,16 @@
     }
 }
 
+@media all and (max-width: 280px) {
+    .fonctionnement-buttons__btn {
+
+        button {
+
+            padding-left: 37px;
+        }
+    }
+}
+
 .menu__body__food__bouton {
     margin-bottom: 20px;
     box-shadow: 1px 5px 8px 1px darken($color-background, 5%);
@@ -163,6 +173,17 @@
     .menu__body__food__bouton__paragraph {
         h3, .overflow-text {
             width: 220px;
+        }
+
+    } 
+    
+    
+}
+
+@media all and (max-width: 280px) {
+    .menu__body__food__bouton__paragraph {
+        h3, .overflow-text, .overflow-text:hover {
+            width: 120px;
         }
 
     } 

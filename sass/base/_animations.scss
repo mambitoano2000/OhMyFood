@@ -62,6 +62,12 @@
     }
 }
 
+@media all and (max-width: 280px) {
+    .loading {
+        left: 40%;
+    }
+}
+
 .find-restaurants__explore__submit, .menu__commander {
     form {
         button:hover {
