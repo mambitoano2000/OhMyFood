@@ -146,6 +146,10 @@ aside {
     border-bottom-right-radius: 15px;
     box-shadow: 1px 5px 8px 1px darken($color-background, 5%);
     justify-content: space-between;
+    a {
+        display: flex;
+        flex: 1;
+    }
     h2 {
         font-size: 1.15em;
     }
