@@ -75,6 +75,10 @@
   font-weight: 900;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .menu__body__food__bouton:hover .price {
   animation: size-button2 0.7s ease;
   transform-origin: 100% 50%;
@@ -370,6 +374,10 @@ hr {
   font-size: 1.05em;
   border-radius: 25px;
 }
+.find-restaurants__explore__submit form button:hover, .menu__commander form button:hover {
+  background: linear-gradient(#bd9ee6, #f39ad8);
+  box-shadow: 1px 5px 8px 1px #bb95ec;
+}
 
 .btn-numbers {
   background-color: #9356DC;
@@ -507,6 +515,11 @@ hr {
 @media all and (max-width: 480px) {
   .overflow-text {
     overflow: hidden;
+  }
+}
+@media all and (max-width: 360px) {
+  .menu__body__food__bouton__paragraph h3, .menu__body__food__bouton__paragraph .overflow-text {
+    width: 220px;
   }
 }
 .wrapper {

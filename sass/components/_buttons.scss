@@ -7,6 +7,10 @@
             font-size: 1.050em;
             border-radius: 25px;
         }
+        button:hover {
+            background: linear-gradient(#bd9ee6, #f39ad8);  
+            box-shadow: 1px 5px 8px 1px #bb95ec; 
+        }
     }
 } 
 
@@ -155,5 +159,16 @@
     .overflow-text {
         overflow: hidden;
     }
+    
+}
+
+@media all and (max-width: 360px) {
+    .menu__body__food__bouton__paragraph {
+        h3, .overflow-text {
+            width: 220px;
+        }
+
+    } 
+    
     
 }
