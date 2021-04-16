@@ -137,6 +137,11 @@
     left: 43%;
   }
 }
+.find-restaurants__explore__submit form button:hover, .menu__commander form button:hover {
+  animation: button-color 0.5s ease;
+  animation-fill-mode: forwards;
+}
+
 @keyframes fade {
   0% {
     opacity: 0;
@@ -285,6 +290,12 @@
     transform: rotate(360deg);
   }
 }
+@keyframes button-color {
+  100% {
+    background: linear-gradient(#bd9ee6, #f39ad8);
+    box-shadow: 1px 5px 8px 1px #bb95ec;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
   color: black;
@@ -373,10 +384,6 @@ hr {
   padding-bottom: 15px;
   font-size: 1.05em;
   border-radius: 25px;
-}
-.find-restaurants__explore__submit form button:hover, .menu__commander form button:hover {
-  background: linear-gradient(#bd9ee6, #f39ad8);
-  box-shadow: 1px 5px 8px 1px #bb95ec;
 }
 
 .btn-numbers {
