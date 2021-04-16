@@ -378,6 +378,10 @@ hr {
   outline: none;
 }
 
+input[type=search]::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+
 .find-restaurants__explore__submit form button, .menu__commander form button {
   background: linear-gradient(#FF79DA, #9356DC);
   padding-top: 15px;
@@ -684,7 +688,7 @@ aside h2 {
   height: 193px;
 }
 .restaurants-blocks__block figure .sticker-container {
-  bottom: 170px;
+  bottom: 185px;
   position: relative;
   display: flex;
   justify-content: flex-end;
