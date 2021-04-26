@@ -530,7 +530,7 @@ input[type=search]::-webkit-search-cancel-button {
     overflow: hidden;
   }
 }
-@media all and (max-width: 360px) {
+@media all and (max-width: 375px) {
   .menu__body__food__bouton__paragraph h3, .menu__body__food__bouton__paragraph .overflow-text {
     width: 220px;
   }
@@ -538,6 +538,31 @@ input[type=search]::-webkit-search-cancel-button {
 @media all and (max-width: 280px) {
   .menu__body__food__bouton__paragraph h3, .menu__body__food__bouton__paragraph .overflow-text, .menu__body__food__bouton__paragraph .overflow-text:hover {
     width: 120px;
+  }
+}
+/* Special Plat blocks */
+.menu__body__food__bouton .white-space-big {
+  width: 300px;
+}
+
+@media all and (max-width: 480px) {
+  .menu__body__food__bouton .white-space-big {
+    white-space: normal;
+    width: 290px;
+  }
+
+  .btn-green-big {
+    height: 99px;
+  }
+}
+@media all and (max-width: 384px) {
+  .menu__body__food__bouton .white-space-big-375 {
+    white-space: normal;
+    width: 260px;
+  }
+
+  .btn-green-big-375 {
+    height: 99px;
   }
 }
 .wrapper {
@@ -685,6 +710,7 @@ aside h2 {
 .restaurants-blocks__block {
   margin: 10px;
   width: 300px;
+  cursor: pointer;
 }
 .restaurants-blocks__block figure {
   height: 193px;

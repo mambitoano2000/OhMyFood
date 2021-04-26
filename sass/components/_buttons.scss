@@ -169,7 +169,7 @@
     
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 375px) {
     .menu__body__food__bouton__paragraph {
         h3, .overflow-text {
             width: 220px;
@@ -189,4 +189,44 @@
     } 
     
     
+}
+
+/* Special Plat blocks */
+
+.menu__body__food__bouton {
+        
+    .white-space-big {
+        width: 300px;
+    
+ }
+}
+
+@media all and (max-width: 480px) {
+    .menu__body__food__bouton {
+        
+            .white-space-big {
+                white-space: normal;
+                width: 290px;
+            
+        }
+    }
+
+    .btn-green-big {
+        height: 99px;
+    }
+}
+
+@media all and (max-width: 384px) {
+    .menu__body__food__bouton {
+        
+            .white-space-big-375 {
+                white-space: normal;
+                width: 260px;
+            
+        }
+    }
+
+    .btn-green-big-375 {
+        height: 99px;
+    }
 }
