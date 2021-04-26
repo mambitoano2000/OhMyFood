@@ -552,7 +552,7 @@ input[type=search]::-webkit-search-cancel-button {
   }
 
   .btn-green-big {
-    height: 98px;
+    height: 97px;
   }
 }
 @media all and (max-width: 384px) {
@@ -562,7 +562,7 @@ input[type=search]::-webkit-search-cancel-button {
   }
 
   .btn-green-big-375 {
-    height: 98px;
+    height: 97px;
   }
 }
 .wrapper {
