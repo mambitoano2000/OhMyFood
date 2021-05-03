@@ -1,7 +1,7 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "dsfsdf",
+  "description": "site de l'entreprise ohmyfood",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
@@ -12,9 +12,9 @@
     "url": "git+https://github.com/mambitoano2000/ohmyfood.git"
   },
   "keywords": [
-    "sdf"
+    "ohmyfood"
   ],
-  "author": "fds",
+  "author": "joao gaspar",
   "license": "ISC",
   "browserslist": "last 4 versions",
   "bugs": {
