@@ -98,9 +98,29 @@
 }
 
 .menu__body__food__bouton:hover .overflow-text {
-  width: 200px;
+  width: 290px;
 }
 
+@media all and (max-width: 480px) {
+  .menu__body__food__bouton:hover .overflow-text {
+    width: 230px;
+  }
+}
+@media all and (max-width: 375px) {
+  .menu__body__food__bouton:hover .overflow-text {
+    width: 200px;
+  }
+}
+@media all and (max-width: 375px) {
+  .menu__body__food__bouton:hover .overflow-text {
+    width: 150px;
+  }
+}
+@media all and (max-width: 280px) {
+  .menu__body__food__bouton:hover .overflow-text {
+    width: 100px;
+  }
+}
 .fade-entrees {
   animation: fade 1s ease, size-button 1s ease;
 }
@@ -498,6 +518,11 @@ input[type=search]::-webkit-search-cancel-button {
   white-space: nowrap;
   overflow: hidden;
 }
+.menu__body__food__bouton h3 .overflow-text {
+  text-overflow: ellipsis;
+  width: 290px;
+  white-space: nowrap;
+}
 .menu__body__food__bouton__paragraph {
   width: 100%;
   padding-left: 15px;
@@ -526,43 +551,54 @@ input[type=search]::-webkit-search-cancel-button {
 }
 
 @media all and (max-width: 480px) {
-  .overflow-text {
+  .menu__body__food__bouton h3 {
+    width: auto;
+  }
+  .menu__body__food__bouton__paragraph .overflow-text {
     overflow: hidden;
+    width: auto;
+  }
+  .menu__body__food__bouton__green {
+    height: 76px;
   }
 }
 @media all and (max-width: 375px) {
-  .menu__body__food__bouton__paragraph h3, .menu__body__food__bouton__paragraph .overflow-text {
-    width: 220px;
+  .menu__body__food__bouton h3 {
+    width: auto;
+    font-size: 1.1em;
+  }
+  .menu__body__food__bouton__paragraph .overflow-text {
+    overflow: hidden;
+    width: auto;
+    font-size: 0.9em;
+  }
+  .menu__body__food__bouton__paragraph .price {
+    font-size: 0.9em;
+  }
+  .menu__body__food__bouton__green {
+    height: 70px;
+  }
+}
+@media all and (max-width: 360px) {
+  .menu__body__food__bouton h3 {
+    width: auto;
+    font-size: 1em;
+  }
+  .menu__body__food__bouton__paragraph .overflow-text {
+    overflow: hidden;
+    width: auto;
+    font-size: 0.7em;
+  }
+  .menu__body__food__bouton__paragraph .price {
+    font-size: 0.7em;
+  }
+  .menu__body__food__bouton__green {
+    height: 62px;
   }
 }
 @media all and (max-width: 280px) {
   .menu__body__food__bouton__paragraph h3, .menu__body__food__bouton__paragraph .overflow-text, .menu__body__food__bouton__paragraph .overflow-text:hover {
     width: 120px;
-  }
-}
-/* Special Plat blocks */
-.menu__body__food__bouton .white-space-big {
-  width: 300px;
-}
-
-@media all and (max-width: 480px) {
-  .menu__body__food__bouton .white-space-big {
-    white-space: normal;
-    width: 290px;
-  }
-
-  .btn-green-big {
-    height: 98px;
-  }
-}
-@media all and (max-width: 384px) {
-  .menu__body__food__bouton .white-space-big-375 {
-    white-space: normal;
-    width: 260px;
-  }
-
-  .btn-green-big-375 {
-    height: 98px;
   }
 }
 .wrapper {
@@ -698,7 +734,7 @@ aside h2 {
   flex-wrap: wrap;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 750px) {
   .restaurants-blocks {
     display: block;
   }
@@ -769,7 +805,7 @@ aside h2 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: white;
   font-size: 1.3em;
-  transition: all 0.4s ease;
+  transition: all 1.5s ease;
 }
 .text-footer__heart i:hover {
   color: #9356DC;
@@ -808,7 +844,7 @@ aside h2 {
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   color: #f6f6f6;
   font-size: 2em;
-  transition: all 0.4s ease;
+  transition: all 1.5s ease;
 }
 .menu__title .submit i:hover {
   color: #9356DC;

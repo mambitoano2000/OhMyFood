@@ -131,7 +131,12 @@
         text-overflow: ellipsis;
         width: 290px;
         white-space: nowrap;
-        overflow: hidden;   
+        overflow: hidden; 
+        .overflow-text {
+            text-overflow: ellipsis;
+            width: 290px;
+            white-space: nowrap;
+        }  
     }
     &__paragraph {
         width: 100%;
@@ -163,22 +168,98 @@
 
 
 @media all and (max-width: 480px) {
-    .overflow-text {
-        overflow: hidden;
+    .menu__body__food__bouton {
+        h3 {
+            width: auto;
+        }
+
+        &__paragraph {
+            .overflow-text {
+                overflow: hidden;
+                width: auto;
+            }
+        }
+
+        &__green {
+            height: 76px;  
+        }
     }
     
 }
 
 @media all and (max-width: 375px) {
-    .menu__body__food__bouton__paragraph {
-        h3, .overflow-text {
-            width: 220px;
+    .menu__body__food__bouton {
+        h3 {
+            width: auto;
+            font-size: 1.1em;
         }
 
-    } 
-    
+        &__paragraph {
+            .overflow-text {
+                overflow: hidden;
+                width: auto;
+                font-size: 0.9em;
+            }
+            .price {
+                font-size: 0.9em;
+            }
+        }
+
+        &__green {
+            height: 70px;  
+        }
+    }
     
 }
+
+@media all and (max-width: 360px) {
+    .menu__body__food__bouton {
+        h3 {
+            width: auto;
+            font-size: 1em;
+        }
+
+        &__paragraph {
+            .overflow-text {
+                overflow: hidden;
+                width: auto;
+                font-size: 0.7em;
+            }
+            .price {
+                font-size: 0.7em;
+            }
+        }
+
+        &__green {
+            height: 62px;  
+        }
+    }
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media all and (max-width: 280px) {
     .menu__body__food__bouton__paragraph {
@@ -191,42 +272,3 @@
     
 }
 
-/* Special Plat blocks */
-
-.menu__body__food__bouton {
-        
-    .white-space-big {
-        width: 300px;
-    
- }
-}
-
-@media all and (max-width: 480px) {
-    .menu__body__food__bouton {
-        
-            .white-space-big {
-                white-space: normal;
-                width: 290px;
-            
-        }
-    }
-
-    .btn-green-big {
-        height: 98px;
-    }
-}
-
-@media all and (max-width: 384px) {
-    .menu__body__food__bouton {
-        
-            .white-space-big-375 {
-                white-space: normal;
-                width: 260px;
-            
-        }
-    }
-
-    .btn-green-big-375 {
-        height: 98px;
-    }
-}

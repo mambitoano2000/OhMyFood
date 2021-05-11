@@ -18,8 +18,41 @@
 }
 
 .menu__body__food__bouton:hover  .overflow-text {
-    width: 200px;
+    width: 290px;
 }
+
+
+@media all and (max-width: 480px) {
+    .menu__body__food__bouton:hover  .overflow-text {
+        width: 230px;
+    }
+    
+}
+
+@media all and (max-width: 375px) {
+    .menu__body__food__bouton:hover  .overflow-text {
+        width: 200px;
+    }
+    
+}
+
+
+@media all and (max-width: 375px) {
+    .menu__body__food__bouton:hover  .overflow-text {
+        width: 150px;
+    }
+    
+}
+
+@media all and (max-width: 280px) {
+    .menu__body__food__bouton:hover  .overflow-text {
+        width: 100px;
+    }
+    
+}
+
+
+
 
 .fade-entrees {
     animation: fade 1s ease, size-button 1s ease;  
