@@ -851,7 +851,7 @@ aside h2 {
   font-size: 2em;
 }
 .menu__title .submit i:hover {
-  animation: button-heart 1s ease;
+  animation: button-heart 2s ease;
   animation-fill-mode: forwards;
 }
 

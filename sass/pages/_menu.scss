@@ -31,7 +31,7 @@
             color: $color-background;
             font-size: 2em;
             &:hover {
-                animation: button-heart 1s ease;
+                animation: button-heart 2s ease;
                 animation-fill-mode: forwards;
             }
         }
