@@ -30,10 +30,9 @@
             text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
             color: $color-background;
             font-size: 2em;
-            transition:  all 1.5s ease;
             &:hover {
-               color: $color-primary;
-               text-shadow: -2px 0 $color-primary, 0 2px $color-primary, 2px 0 $color-primary, 0 -2px $color-primary;
+                animation: button-heart 1s ease;
+                animation-fill-mode: forwards;
             }
         }
     }
