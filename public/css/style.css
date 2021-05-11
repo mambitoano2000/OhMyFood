@@ -106,12 +106,12 @@
     width: 230px;
   }
 }
-@media all and (max-width: 375px) {
+@media all and (max-width: 411px) {
   .menu__body__food__bouton:hover .overflow-text {
-    width: 200px;
+    width: 170px;
   }
 }
-@media all and (max-width: 375px) {
+@media all and (max-width: 370px) {
   .menu__body__food__bouton:hover .overflow-text {
     width: 150px;
   }
@@ -568,7 +568,7 @@ input[type=search]::-webkit-search-cancel-button {
     height: 76px;
   }
 }
-@media all and (max-width: 375px) {
+@media all and (max-width: 411px) {
   .menu__body__food__bouton h3 {
     width: auto;
     font-size: 1.1em;
