@@ -526,7 +526,7 @@ input[type=search]::-webkit-search-cancel-button {
 }
 .menu__body__food__bouton h3 .overflow-text {
   text-overflow: ellipsis;
-  width: 290px;
+  width: 300px;
   white-space: nowrap;
 }
 .menu__body__food__bouton__paragraph {
@@ -538,7 +538,7 @@ input[type=search]::-webkit-search-cancel-button {
 }
 .menu__body__food__bouton__paragraph .overflow-text {
   text-overflow: ellipsis;
-  width: 290px;
+  width: 300px;
   white-space: nowrap;
 }
 .menu__body__food__bouton__green {
