@@ -585,7 +585,7 @@ input[type=search]::-webkit-search-cancel-button {
     height: 70px;
   }
 }
-@media all and (max-width: 360px) {
+@media all and (max-width: 370px) {
   .menu__body__food__bouton h3 {
     width: auto;
     font-size: 1em;
